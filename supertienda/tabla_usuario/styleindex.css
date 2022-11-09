@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background: grey;
+    
+}
+
+
+.centro{
+    font-family: fantasy;
+    font-size: 27px;
+    text-align: center;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    background: green;
+    border: 5px solid;
+    position: relative;
+    margin-top: 150px;
+}
+
+.pri{
+    font-family: 'Times New Roman', Times, serif;
+    background: yellow;
+    border: 5px solid;
+}
+
+.secu{
+    text-align: center;
+    font-size: 15px;
+}
+
+.boton{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    right: -800px
+}
+
+.boton1{
+    background-color: aqua;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.boton2{
+    background-color: rgb(114, 7, 98);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.boton3{
+    background-color: rgb(98, 5, 5);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+

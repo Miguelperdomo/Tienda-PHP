@@ -1,0 +1,76 @@
+@import url(fuentes.css);
+body {
+    background-image: url("../img/video.mp4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: solid 5px rgb(0, 0, 0);
+    height: 90px;
+    padding: 2rem 0;
+}
+
+.header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.imagen-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.imagen img {
+    width: 150px;
+    left: -190px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation .bb ul li {
+    display: inline-block;
+    right: -200px;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 1s linear;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    right: -300px;
+    position: relative;
+}
+
+.navigation ul li a:hover {
+    color: #5e00f6;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-image: url("../img/fondoindex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor {
+    width: 400px;
+    background-color: transparent;
+    border: 5px solid black;
+    position: relative;
+    right: -500px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.imagen {
+    width: 250px;
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.titulo1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.login {
+    width: 350px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.boton {
+    width: 300px;
+    height: 35px;
+    background-color: aqua;
+}
+
+.olvide {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,139 @@
+
+body {
+    background-color: white;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #6d5c5c;
+    color: white;
+    height: 140px;
+    padding: 2rem 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.imagen-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.imagen img {
+    width: 120px;
+    left: -150px;
+    position: relative;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation p {
+    float: left;
+    left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 3s linear;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    right: -300px;
+    position: relative;
+}
+
+.navigation ul li a:hover {
+    color: #f39239;
+}
+
+
+/* body el cuerpo*/
+
+.texto_p {
+    width: 100%;
+}
+
+.texto {
+    font-size: 20px;
+    right: -400px;
+    position: relative;
+    width: 800px;
+}
+
+.navigation p {
+    text-align: center;
+}
+
+
+/*primera caja con imagen*/
+
+.caja1 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    float: left;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    right: -450px;
+}
+
+.caja1 img {
+    width: 150px;
+    right: -70px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.caja1 h3 {
+    align-items: center;
+    right:120px;
+    text-align: center;
+    position: relative;
+}
+
+.caja1 .boton{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    top: 125px;
+    right: -30px;
+    background-color: #f39239;
+}
+
+.contenedor {
+    width: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
